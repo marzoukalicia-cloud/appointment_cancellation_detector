@@ -1,0 +1,2 @@
+# appointment_cancellation_detector
+MLflow Project for appointment cancellation prediction
