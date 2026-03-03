@@ -64,7 +64,7 @@ if __name__ == "__main__":
 
     # Preprocessing 
     categorical_features = ["Gender", "Neighbourhood"] # Select all the columns containing strings
-    categorical_transformer = OneHotEncoder(drop='first', handle_unknown='error', sparse=False)
+    categorical_transformer = OneHotEncoder(drop='first', handle_unknown='error', sparse_output=False)
 
     numerical_feature_mask = ~X_train.columns.isin(["Gender", "Neighbourhood", "ScheduledDay","AppointmentDay"]) # Select all the columns containing anything else than strings
     numerical_features = X_train.columns[numerical_feature_mask]
