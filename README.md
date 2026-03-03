@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Appointment cancellation detector
 
 This is a simple script that trains a `sklearn` algorithm to detect future cancellations of doctor's appointments. You can use this repo to do your exercise *Package your algorithm training* in [Jedha's fullstack program](https://app.jedha.co).
@@ -45,3 +46,7 @@ You can then simply run `source secrets.sh` to export all your environmnet varia
 
 Happy coding! 👩‍💻
 
+=======
+# appointment_cancellation_detector
+MLflow Project for appointment cancellation prediction
+>>>>>>> d43ed342a992ee102ecbb75597aed56833f0ba9c
